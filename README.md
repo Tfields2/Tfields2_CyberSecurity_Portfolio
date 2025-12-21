@@ -1,5 +1,7 @@
 # TJ Fields Cybersecurity Portfolio
 
+# [Professional Statement](https://github.com/Tfields2/Professional-Statement/blob/main/TJ_Fields_Professional_Statement.pdf)
+
 # [Project 1:  NIST CSF 2.0 Icident Response Plan - Cantaluope Inc](https://tfields2.github.io/Nist_CSF_2.0_Incident_Response_Cantaloupe-Inc./)
 
 This was a group project I did in my final semester of undergrad at The University of Alabama. This project documents the design and formalization of a NIST Cybersecurity Framework (CSF) 2.0-aligned Incident response Plan for Cantaloupe Inc. The objective was to create a structured, regulatory-aware framework addressing detection, containment, eradcation, recovery, and post-incident improvement.
