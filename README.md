@@ -1,7 +1,7 @@
 # TJ Fields Cybersecurity Portfolio
 
 # [Professional Statement](https://github.com/Tfields2/Professional-Statement/blob/main/TJ_Fields_Professional_Statement.pdf)
-
+---
 # [Project 1:  NIST CSF 2.0 Icident Response Plan - Cantaluope Inc](https://tfields2.github.io/Nist_CSF_2.0_Incident_Response_Cantaloupe-Inc./)
 
 This was a group project I did in my final semester of undergrad at The University of Alabama. This project documents the design and formalization of a NIST Cybersecurity Framework (CSF) 2.0-aligned Incident response Plan for Cantaloupe Inc. The objective was to create a structured, regulatory-aware framework addressing detection, containment, eradcation, recovery, and post-incident improvement.
@@ -12,7 +12,7 @@ This was a group project I did in my final semester of undergrad at The Universi
 - Created scenerio based response playbook for common financial sector incident (Ransomeware attack)
 - Mapped controls to NIST CSF 2.0 Respond and Recover functions
 - Presented the finalized documentation to a cybersecurity governance board for review
-
+---
 # [Project 2: Applied Cybersecurity](https://tfields2.github.io/Applied-Cybersecurity/)
 
 These projects demonstrate hands-on experience across **security operations, incidents response, risk and vulnerability assessment, and governance, risk, and compliance (GRC)**. The work applies practical security techniques and industry frameworks to investigate suspicious activity, analyze and respond to security incidents, assess organizational risk, and evaluate control effectiveness. Emphasis is placed on evidence based analysis, least-privilege enforcement, structured incident response, and clear technical documentation aligned with real world cybersecurity practices.
@@ -34,3 +34,16 @@ These projects demonstrate hands-on experience across **security operations, inc
   - Evaluation of administrative, technical, and physical security controls
   - Compliance gap analysis aligned with PCI DSS, GDPR, and SOC principles
   - Risk-based security recommendations to improve organizational security posture
+
+---
+
+# [Project 3: Secure Authentication & Password Manager (Python)](https://github.com/Tfields2/secure-password-manager-python)
+This Python project demonstrates how a basic password manager can evolve into a secure authentication system through deliberate, security-focused design. I incrementally introduced protections such as cryptographic password hashing, account lockouts after repeated failures, audit logging for authentication events, administrative recovery workflows, and safe on-disk persistence.
+
+The project reflects practical security engineering choices rather than theoretical examples, emphasizing how authentication systems defend against brute-force attacks, credential leaks, and data corruption.
+
+## Note
+
+This project is intentionally terminal-based to highlight authentication logic and security controls rather than user interface design. The same architecture and logic could be adapted to a web application, REST API, or enterprise identity platform.
+
+---
