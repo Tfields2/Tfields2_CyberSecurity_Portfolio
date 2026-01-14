@@ -47,3 +47,36 @@ The project reflects practical security engineering choices rather than theoreti
 This project is intentionally terminal-based to highlight authentication logic and security controls rather than user interface design. The same architecture and logic could be adapted to a web application, REST API, or enterprise identity platform.
 
 ---
+
+# [Project 4: Caesar Cipher Encryption & Logging Tool (Python)](https://github.com/Tfields2/Python-Caeser-Cypher)
+
+This project demonstrates hands-on experience in **secure software design, defensive programming, data handling, and security-focused workflow development**. Rather than focusing solely on cryptography, the project emphasizes how encryption tools are implemented in practice, including persistent logging, input validation, deduplication, and operational resilience.
+
+The work applies fundamental security principles such as **data integrity, controlled input handling, auditability, and fault tolerance**, showcasing how even simple cryptographic algorithms must be supported by robust surrounding logic to be operationally useful. Emphasis is placed on maintainable code, structured logging, and real-world defensive considerations.
+
+## Project Areas & Skills Demonstrated
+
+- **Secure Application Development**
+  - Implementation of a Caesar cipher supporting encryption and decryption of messages and files
+  - Separation of cryptographic logic from input handling and file operations
+  - Clear, well-documented code designed for readability and maintainability
+
+- **Logging & Data Integrity**
+  - Append-only JSONL logging of encryption events with unique monotonic IDs
+  - Case-insensitive and whitespace-normalized deduplication to prevent duplicate log entries
+  - Fault-tolerant parsing that safely handles malformed or corrupted log records
+
+- **Operational Security Workflows**
+  - Log-driven workflows enabling retrieval and analysis of encrypted data by ID
+  - Brute-force decryption of stored ciphertext to simulate basic cryptanalysis techniques
+  - CLI-based design reflecting real-world security tooling and analyst workflows
+
+- **Defensive Programming & Error Handling**
+  - Input validation for cryptographic parameters and user commands
+  - Safe file I/O to prevent accidental overwrites and runtime crashes
+  - Graceful handling of malformed input, missing files, and interrupted execution
+
+## Note  
+This project is intentionally terminal-based to emphasize encryption workflows, logging discipline, and defensive programming rather than user interface complexity. The architecture is designed to be extensible and could be adapted to a backend service, security training tool, or audit-focused encryption workflow.
+
+---
